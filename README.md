@@ -54,7 +54,7 @@ Enhanced Developer Control – Fine-tune, modify, and integrate models as needed
 ---
 
 
-###🖥️ Setting Up Your Local AI
+🖥️ Setting Up Your Local AI
 
 
 1️⃣ Install Ollama
@@ -62,19 +62,23 @@ Enhanced Developer Control – Fine-tune, modify, and integrate models as needed
 
 First, install Ollama to manage and run AI models locally.
 
-```curl -fsSL https://ollama.ai/install.sh | sh```
+```
+curl -fsSL https://ollama.ai/install.sh | sh
+```
 
 
-###2️⃣ Run AI Models via CLI
+2️⃣ Run AI Models via CLI
 
 
 Once installed, you can directly serve AI models from your command line.
 
 
-```ollama run <model_name>```
+```
+ollama run <model_name>
+```
 
 
-###3️⃣ Deploy AI as a Web UI (Using Docker)
+3️⃣ Deploy AI as a Web UI (Using Docker)
 
 
 For a ChatGPT-like experience, pull and run the image-web-ui inside Docker.
@@ -86,25 +90,29 @@ docker run -d -p 3000:3000 ghcr.io/<repo>/image-web-ui
 ```
 
 
-###4️⃣ Enable WSL for a Linux-Like Dev Environment on Windows
+4️⃣ Enable WSL for a Linux-Like Dev Environment on Windows
 
 
 WSL seamlessly integrates Linux inside Windows, making AI development smooth and efficient.
 
 
-```wsl --install```
+```
+wsl --install
+```
 
 
 Once WSL is set up, you can run AI models inside a Linux terminal on Windows, unlocking better compatibility and performance.
 
 
-###5️⃣ Make Your AI Public with ngrok (Optional)
+5️⃣ Make Your AI Public with ngrok (Optional)
 
 
 Want to access your AI remotely? Use ngrok to expose your local server.
 
 
-```ngrok http 3000```
+```
+ngrok http 3000
+```
 
 
 This will generate a public URL, allowing you to access your AI model from any device.
