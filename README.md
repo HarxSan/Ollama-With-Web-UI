@@ -1,10 +1,14 @@
 # Ollama-With-Web-UI
 ---
 🚀 Local AI Deployment with Ollama, Docker & WSL
+
+
 Empowering AI Development Locally: No Cloud, No Limits!
+
 
 This project demonstrates how to deploy and serve AI models locally on a Windows machine using Ollama, Docker, and WSL (Windows Subsystem for Linux). The goal is to create a fully functional, self-hosted AI system with a ChatGPT-like Web UI, accessible both locally and remotely.
 
+---
 🛠️ Key Features
 
 
@@ -46,15 +50,20 @@ Reduced Latency – Process AI requests instantly without relying on external se
 
 Enhanced Developer Control – Fine-tune, modify, and integrate models as needed.
 
+
 ---
 
+
 ###🖥️ Setting Up Your Local AI
+
+
 1️⃣ Install Ollama
 
 
 First, install Ollama to manage and run AI models locally.
 
 ```curl -fsSL https://ollama.ai/install.sh | sh```
+
 
 ###2️⃣ Run AI Models via CLI
 
@@ -63,10 +72,13 @@ Once installed, you can directly serve AI models from your command line.
 
 
 ```ollama run <model_name>```
+
+
 ###3️⃣ Deploy AI as a Web UI (Using Docker)
 
 
 For a ChatGPT-like experience, pull and run the image-web-ui inside Docker.
+
 
 ```
 docker pull ghcr.io/<repo>/image-web-ui:latest
@@ -79,6 +91,7 @@ docker run -d -p 3000:3000 ghcr.io/<repo>/image-web-ui
 
 WSL seamlessly integrates Linux inside Windows, making AI development smooth and efficient.
 
+
 ```wsl --install```
 
 
@@ -89,7 +102,6 @@ Once WSL is set up, you can run AI models inside a Linux terminal on Windows, un
 
 
 Want to access your AI remotely? Use ngrok to expose your local server.
-
 
 
 ```ngrok http 3000```
