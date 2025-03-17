@@ -2,7 +2,7 @@
 
 
 🚀 Local AI Deployment with Ollama, Docker & WSL
-
+---
 
 Empowering AI Development Locally: No Cloud, No Limits!
 
@@ -12,10 +12,7 @@ This project demonstrates how to deploy and serve AI models locally on a Windows
 
 ## 🎥 Demo Video
 
-
-## 🎥 Demo Video
-
-[![Watch the video](https://github.com/HarxSan/Ollama-With-Web-UI/blob/main/732%20Desktop%20Wallpaper.jpg)](https://github.com/HarxSan/Ollama-With-Web-UI/raw/main/Ollama%20Demo%20With%20UI.mp4)
+[![Watch the video](https://github.com/HarxSan/Ollama-With-Web-UI/blob/main/732%20Desktop%20Wallpaper.jpg)](https://github.com/HarxSan/Ollama-With-Web-UI/blob/main/Ollama%20Demo%20With%20UI.mp4)
 
 
 🛠️ Key Features
