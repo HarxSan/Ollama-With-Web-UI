@@ -1,5 +1,6 @@
 # Ollama-With-Web-UI
 ---
+
 🚀 Local AI Deployment with Ollama, Docker & WSL
 
 
@@ -7,10 +8,18 @@ Empowering AI Development Locally: No Cloud, No Limits!
 
 
 This project demonstrates how to deploy and serve AI models locally on a Windows machine using Ollama, Docker, and WSL (Windows Subsystem for Linux). The goal is to create a fully functional, self-hosted AI system with a ChatGPT-like Web UI, accessible both locally and remotely.
+  
 
+## 🎥 Demo Video
 ---
-🛠️ Key Features
 
+<video src="https://github.com/HarxSan/Ollama-With-Web-UI/raw/main/Ollama%20Demo%20With%20UI.mp4" controls width="800">
+Your browser does not support the video tag.
+</video>
+
+
+🛠️ Key Features
+---
 
 ✔ Run AI Models Locally – No cloud dependency, full control over your models.
 
@@ -30,11 +39,9 @@ This project demonstrates how to deploy and serve AI models locally on a Windows
 ✔ Efficient & Cost-Effective – Say goodbye to cloud costs and latency issues.
 
 
----
-
 
 📌 Why This Project?
-
+---
 
 With AI models becoming more powerful, self-hosting AI is now a viable alternative to cloud-based solutions. This project is a blueprint for running and interacting with AI on your own machine, offering:
 
@@ -51,11 +58,9 @@ Reduced Latency – Process AI requests instantly without relying on external se
 Enhanced Developer Control – Fine-tune, modify, and integrate models as needed.
 
 
----
-
 
 🖥️ Setting Up Your Local AI
-
+---
 
 1️⃣ Install Ollama
 
@@ -117,10 +122,9 @@ ngrok http 3000
 
 This will generate a public URL, allowing you to access your AI model from any device.
 
----
 
 📈 The Future of Local AI
-
+---
 
 The ability to run AI models efficiently without the cloud is a game-changer. Whether for research, personal projects, or enterprise applications, self-hosting AI provides unparalleled flexibility.
 
@@ -129,17 +133,16 @@ This is just the beginning. The future of AI is not just in the cloud—it’s l
 
 
 Let’s build the next-gen AI stack together. 🛠️
----
 
 
 📜 License
-
+---
 
 This project is licensed under the MIT License – feel free to modify and expand!
 
 
 📩 Contributions & Feedback
-
+---
 
 Got ideas for improvement? PRs & discussions are welcome! Let’s push the boundaries of self-hosted AI together. 🚀
 
@@ -147,12 +150,9 @@ Got ideas for improvement? PRs & discussions are welcome! Let’s push the bound
 
 
 Stay updated on my work:
-
+---
 
 LinkedIn: https://www.linkedin.com/in/harii-sankar-s-a0b11925a/
 
 
 GitHub: https://github.com/HarxSan
-
-
-#AI #LocalAI #SelfHostedAI #Ollama #Docker #WSL #NoCloud #MachineLearning #WebUI #Automation
