@@ -12,7 +12,7 @@ This project demonstrates how to deploy and serve AI models locally on a Windows
 
 ## 🎥 Demo Video
 
-[![Watch the video](https://github.com/HarxSan/Ollama-With-Web-UI/blob/main/732%20Desktop%20Wallpaper.jpg)](https://github.com/HarxSan/Ollama-With-Web-UI/blob/main/Ollama%20Demo%20With%20UI.mp4)
+[![Watch the video](https://raw.githubusercontent.com/HarxSan/Ollama-With-Web-UI/main/732%20Desktop%20Wallpaper.jpg)](https://github.com/HarxSan/Ollama-With-Web-UI/blob/main/Ollama%20Demo%20With%20UI.mp4)
 
 
 🛠️ Key Features
@@ -21,7 +21,7 @@ This project demonstrates how to deploy and serve AI models locally on a Windows
 ✔ Run AI Models Locally – No cloud dependency, full control over your models.
 
 
-✔ Docker-Based Deployment – Containerized AI for better scalability and ease of use.
+✔ Docker-Based Deployment – Containerized AI for ease of use.
 
 
 ✔ ChatGPT-Like Web UI – Seamless user interaction through image-web-ui.
@@ -30,10 +30,10 @@ This project demonstrates how to deploy and serve AI models locally on a Windows
 ✔ WSL Integration – Bringing a Linux-powered development experience to Windows.
 
 
-✔ Remote Access via ngrok – Secure, temporary exposure of the local AI server to the internet.
+✔ Remote Access via ngrok – Temporary exposure of the local AI server to the internet.
 
 
-✔ Efficient & Cost-Effective – Say goodbye to cloud costs and latency issues.
+✔ Cost-Effective – No cloud usage fees.
 
 
 
@@ -43,16 +43,10 @@ This project demonstrates how to deploy and serve AI models locally on a Windows
 With AI models becoming more powerful, self-hosting AI is now a viable alternative to cloud-based solutions. This project is a blueprint for running and interacting with AI on your own machine, offering:
 
 
-Better Data Privacy – Keep sensitive AI interactions offline.
+Better Data Privacy – Keep sensitive AI interactions offline, unless you use ngrok.
 
 
 Lower Costs – No need for expensive cloud GPUs.
-
-
-Reduced Latency – Process AI requests instantly without relying on external servers.
-
-
-Enhanced Developer Control – Fine-tune, modify, and integrate models as needed.
 
 
 
